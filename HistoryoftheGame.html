@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bingo!</title>
+        <link rel="stylesheet" type="text/css" href="styling/main.css">
+    </head>
+    <!-- NAVBAR BEGINS HERE-->
+    <nav class="flex-container" id="navbar">
+        <ul>
+            <h1>BINGO DAY</h1>
+            <!-- Home-->
+     
+        <li class="dropdown">
+          <div class="flex-container"></div>
+          <a href="index.html" class="dropbtn"> &star; Home</a>
+        </li>
+      
+            <!--Rules-->
+            <li class="dropdown">
+                <a>
+                    <ol id="rules" style="color: white" hidden>
+                        <li>Each player will get a 5X5 score card filled with numbers from 1-75 and one free space, along with a header that spells out BINGO.</li><br>
+                        <li>The cards will be distributed randomly.</li><br>
+                        <li>There will be a number and letter generator that will display the calling number for each round until you achieve a successful Bingo win.</li><br>
+                        <li>When a player has highlighted 5 numbers in a horizontal ,vertical, or diagonal row the game will end.</li><br>
+                        <br>
+                    </ol>
+                    <input type="button"&#10940; class ="button" onclick="toggleRules()" value=  "&#10940; Rules of the Game">
+                    <script>
+                    
+                    function toggleRules() {
+                    var el = document.getElementById("rules");
+                    if(el.hidden){
+                    el.hidden = false;
+                    }else{
+                    el.hidden = true;
+                    }
+                    }
+                    </script>
+                    
+                </a>
+            </li>
+            
+            <!-- History-->
+            <li class="dropdown">
+                <div class="flex-container"></div>
+                <a href="HistoryoftheGame.html" class="dropbtn"> &star; History of the Game</a>
+            </li>
+            
+            
+            <!--About Developers-->
+            <li class="dropdown">
+                <div class="flex-container"></div>
+                <a href="About.html" class="dropbtn"> &star; About the Developers </a>
+            </li>
+            
+            <!-- Contact Us-->
+            <li class="dropdown">
+                <a href="#" class="dropbtn">&star; Contact Us</a>
+                <div class="dropdown-content">
+                    <a href="mailto: chelsea.rodriguez13@qmail.cuny.edu" >Chelsea Rodriguez</a>
+                    <a href="mailto: damian.diaz54@qmail.cuny.edu" >Damian Diaz</a>
+                    <a href="" >Rafi Ahmed</a>
+                    <a href="" >Roberto Andrade</a>
+                </div>
+            </li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn">&star; OtherLinks</a>
+                <div class="dropdown-content">
+                    <a href="https://www.google.com/search?q=bingo" target="_blank">Google Search</a>
+                    <a href="https://www.arkadium.com/games/bingo/" target="_blank">Play it here</a>
+                    <a href="https://www.galabingo.com/" target="_blank">UK Bingo</a>
+                    <a href="https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo&hl=en_US" target="_blank">Google Play</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--NAVBAR ENDS HERE-->
+    
+    
+    <body>
+        <div class="" style="margin-left: 25%; padding: 5em; background-image:linear-gradient(blue,white); font-style:normal;")>
+            ​
+            <h1>The History of the game Bingo</h1>
+            <p>      Some Historians point the origin of current bingo in 16th century Italy. There, the Italian Lottery game was born in 1,530 ("Lo Giuoco del Lotto d'Italia", which continues to be held today every Saturday). Its operation was similar to that of bingo that we know: numbered balls and cards with random numbers.</p>
+            ​
+            <p>
+                It gained popularity in some parts of europe, becoming popular in France in the 18th century (and was renamed "Le Lotto" there). The origins of the basic elements of today's bingo are here: cards, chips and a person in charge of singing the numbers out loud. Once again it was a game enjoyed by the most economically solvent classes. After walking around Europe and finding new more educational uses for this ball game.
+            </p>
+            ​
+            <p>
+                years later, the game had already spread across Europe. For the year 1850, the Germans decided to use the game as a way to promote the education of children, so they created the so-called "letter bingos", "animal bingo", "colored bingo", among others.
+            </p>
+            ​
+            ​
+            <h3>Why is it called ‘Bingo’</h3>
+            <p>
+                The game existed before with other names but the word itself did not appear until an American toy vendor, named Edwin S. Lowe, gained the word to market his tickets.
+            </p>
+            ​
+            <p>
+                It was 1929, and the aforementioned businessman considered himself at a Georgia fair. It was then that he noticed a game that took place on a horseshoe-shaped table, full of numbered cards and beans. It was an evolution of Le Lotto, which in evolving lands was called Beano. Players anxiously checked their cards to see if they had the numbers coming out, and, if that were the case, placed a bean in the corresponding number. The dynamic continued until someone completed a line on their card (either horizontal, vertical, or diagonal). At that moment the game stopped at the cry of Beano, and another round automatically began.
+            </p>
+            ​
+            <p>
+                Upon returning to his New York home, Lowe purchased a few beans, a rubber stamp, and a carton. He invited his colleagues and organized an evening of recreation. The success was instantaneous and everyone ended up hooked on Beano, with the same emotion he had felt at the Georgia fair. At a specific moment, one of the competitors realized that she had won. The graceful woman was so excited that her nerves played a trick on her, stammering BINGO! instead of Beano! And since then the word stayed with the game.
+            </p>
+            <h3>Popularity </h3>
+            <p>
+                The United States was the country that most allowed this game to expand. Some Christian churches began to use this game as a way to raise funds and finance themselves, which initially paid tribute to what the Romans dreamed of in their own time.
+            </p>
+            <p>
+                The fame of the game was so enormous, that by the year 1934, more than 10,000 Bingo betting centers had already been created throughout the  United States.
+            </p>
+        </div>
+        ​
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_23_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="1"/>
+  </filter>
+  <filter id="svg_11_blur">
+   <feGaussianBlur stdDeviation="0.4"/>
+  </filter>
+  <filter id="svg_15_blur">
+   <feGaussianBlur stdDeviation="0.9"/>
+  </filter>
+  <filter id="svg_20_blur">
+   <feGaussianBlur stdDeviation="1.1"/>
+  </filter>
+  <filter id="svg_6_blur">
+   <feGaussianBlur stdDeviation="1.3"/>
+  </filter>
+  <filter id="svg_12_blur">
+   <feGaussianBlur stdDeviation="0.9"/>
+  </filter>
+  <filter id="svg_4_blur">
+   <feGaussianBlur stdDeviation="1"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_2_blur">
+   <feGaussianBlur stdDeviation="1.4" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="582" height="402" id="canvas_background" fill="#e5e5e5"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="39" y="37.453125" id="svg_3" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.58">5</text>
+  <text fill="#f90909" stroke="#000" stroke-width="0" stroke-opacity="null" x="110" y="81.453125" id="svg_4" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.5" filter="url(#svg_4_blur)">16</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="44" y="161.453125" id="svg_5" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.31">32</text>
+  <text fill="#fc0202" stroke="#000" stroke-width="0" stroke-opacity="null" x="183" y="156.453125" id="svg_6" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.33" filter="url(#svg_6_blur)">56</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="119" y="216.453125" id="svg_7" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.29">78</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="54" y="301.453125" id="svg_8" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.29">34</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="259" y="45.453125" id="svg_9" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.55">2</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="269" y="194.453125" id="svg_10" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.47">7</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="230" y="261.453125" id="svg_11" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.27" filter="url(#svg_11_blur)">4</text>
+  <text fill="#fc0c0c" stroke="#000" stroke-width="0" stroke-opacity="null" x="386" y="91.453125" id="svg_12" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.57" filter="url(#svg_12_blur)">1</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="290" y="109.453125" id="svg_13" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.31">10</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="157" y="313.453125" id="svg_14" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.32">17</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="390" y="178.453125" id="svg_15" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.33" filter="url(#svg_15_blur)">9</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="366" y="266.453125" id="svg_16" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.36">13</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="310" y="316.453125" id="svg_17" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.33">21</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="478" y="111.453125" id="svg_18" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.3">15</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="484" y="35.453125" id="svg_19" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.29">9</text>
+  <text fill="#f70e0e" stroke="#000" stroke-width="0" stroke-opacity="null" x="476" y="212.453125" id="svg_20" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.4" filter="url(#svg_20_blur)">3</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="464" y="305.453125" id="svg_21" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.51">42</text>
+  <text fill="#fc0707" stroke="#000" stroke-width="0" stroke-opacity="null" x="100" y="352.453125" id="svg_23" font-size="24" font-family="Euphoria, sans-serif" text-anchor="start" xml:space="preserve" opacity="0.54" filter="url(#svg_23_blur)">74</text>
+  <path stroke="#000" opacity="0.53" filter="url(#svg_2_blur)" id="svg_22" d="m537.482534,21.266966l12.986926,0l4.013062,-13.368847l4.013062,13.368847l12.986926,0l-10.506626,8.262307l4.013265,13.368847l-10.506626,-8.26253l-10.506626,8.26253l4.013265,-13.368847l-10.506626,-8.262307z" stroke-width="1.5" fill="#00007f"/>
+  <path stroke="#000" opacity="0.53" filter="url(#svg_2_blur)" id="svg_25" d="m313.482536,156.121064l10.313145,0l3.186843,-12.222946l3.186843,12.222946l10.313145,0l-8.343496,7.554109l3.187004,12.222946l-8.343496,-7.554313l-8.343496,7.554313l3.187004,-12.222946l-8.343496,-7.554109z" stroke-width="1.5" fill="#ff7f00"/>
+  <path stroke="#000" opacity="0.53" filter="url(#svg_2_blur)" id="svg_26" d="m171.482529,29.829264l10.313147,0l3.186844,-9.931143l3.186844,9.931143l10.313147,0l-8.343498,6.137713l3.187005,9.931143l-8.343498,-6.137879l-8.343498,6.137879l3.187005,-9.931143l-8.343498,-6.137713z" stroke-width="1.5" fill="#ff7f00"/>
+  <path stroke="#000" opacity="0.53" filter="url(#svg_2_blur)" id="svg_28" d="m25.48253,231.884999l13.750865,0l4.249125,-12.986879l4.249125,12.986879l13.750865,0l-11.124665,8.026241l4.24934,12.986879l-11.124665,-8.026457l-11.124665,8.026457l4.24934,-12.986879l-11.124665,-8.026241z" stroke-width="1.5" fill="#0000bf"/>
+ </g>
+</svg>

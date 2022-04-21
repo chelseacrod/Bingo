@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo!</title>
+    <link rel="stylesheet" type="text/css" href="styling/main.css">
+    <link rel="stylesheet" type="text/css" href="styling/game.css">
+ 
+  </head>
+  
+  <!-- NAVBAR BEGINS HERE-->
+  <nav id="navbar">
+    <ul>
+      <h1>BINGO DAY</h1>
+      <!-- Home-->
+      <li class="dropdown">
+        <a href="index.html" class="dropbtn"> &star; Home</a>
+      </li>
+      
+      <!--Rules-->
+      <li class="dropdown">
+        <a>
+          <ol id="rules" style="color: white" hidden>
+            <li>Each player will get a 5X5 score card filled with numbers from 1-75 and one free space, along with a header that spells out BINGO.</li><br>
+            <li>The cards will be distributed randomly.</li><br>
+            <li>There will be a number and letter generator that will display the calling number for each round until you achieve a successful Bingo win.</li><br>
+            <li>When a player has highlighted 5 numbers in a horizontal ,vertical, or diagonal row the game will end.</li><br>
+            <br>
+          </ol>
+          <input type="button"&#10940; class ="button" onclick="toggleRules()" value=  "&#10940; Rules of the Game">
+          
+          <script>
+          function toggleRules() {
+          var el = document.getElementById("rules");
+          if(el.hidden){
+          el.hidden = false;
+          }else{
+          el.hidden = true;
+          }
+          }
+          </script>
+        </a>
+      </li>
+      <!-- History-->
+      <li class="dropdown">
+        <div class="flex-container"></div>
+        <a href="HistoryoftheGame.html" class="dropbtn"> &star; History of the Game</a>
+      </li>
+      <!--About Developers-->
+      <li class="dropdown">
+        <div class="flex-container"></div>
+        <a href="About.html" class="dropbtn"> &star; About the Developers </a>
+      </li>
+      
+      <!-- Contact Us-->
+      <li class="dropdown">
+        <a href="#" class="dropbtn">&star; Contact Us</a>
+        <div class="dropdown-content">
+          <a href="mailto: chelsea.rodriguez13@qmail.cuny.edu" >Chelsea Rodriguez</a>
+          <a href="mailto: damian.diaz54@qmail.cuny.edu" >Damian Diaz</a>
+          <a href="" >Rafi Ahmed</a>
+          <a href="" >Roberto Andrade</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn">&star; OtherLinks</a>
+        <div class="dropdown-content">
+          <a href="https://www.google.com/search?q=bingo" target="_blank">Google Search</a>
+          <a href="https://www.arkadium.com/games/bingo/" target="_blank">Play it here</a>
+          <a href="https://www.galabingo.com/" target="_blank">UK Bingo</a>
+          <a href="https://play.google.com/store/apps/details?id=air.com.buffalo_studios.newflashbingo&hl=en_US" target="_blank">Google Play</a>
+        </div>
+      </li>
+     
+    </ul>
+    
+  </nav>
+
+  <!-- GAMEPAGE BEGINS HERE-->
+  
+  <div id="container">
+    <div id="header">
+    </div>
+    <div id="content">
+      <table id="bingotable">
+        <tr>
+         
+          <th class="board-header">B</th>
+          <th class="board-header">I</th>
+          <th class="board-header">N</th>
+          <th class="board-header">G</th>
+          <th class="board-header">O</th>
+        </tr>
+        
+        <tr>
+          
+          <td id="tile0"style= 'cursor:pointer; ' ></td>
+          <td id="tile1"style= 'cursor:pointer; '></td>
+          <td id="tile2"style= 'cursor:pointer; '></td>
+          <td id="tile3"style= 'cursor:pointer; '></td>
+          <td id="tile4"style= 'cursor:pointer; '></td>
+        </tr>
+        <tr>
+          <td id="tile5"style= 'cursor:pointer; '></td>
+          <td id="tile6"style= 'cursor:pointer; '></td>
+          <td id="tile7"style= 'cursor:pointer; '></td>
+          <td id="tile8"style= 'cursor:pointer; '></td>
+          <td id="tile9"style= 'cursor:pointer; '></td>
+        </tr>
+        <tr>
+          <td id="tile10" style= 'cursor:pointer; '></td>
+          <td id="tile11"style= 'cursor:pointer; '></td>
+          <td id="free-space"style= 'cursor:pointer; '> &star;</td>
+          <td id="tile12" style= 'cursor:pointer; ' ></td>
+          <td id="tile13"style= 'cursor:pointer; '></td>
+        </tr>
+        <tr>
+          <td id="tile14"style= 'cursor:pointer; '></td>
+          <td id="tile15"style= 'cursor:pointer; '></td>
+          <td id="tile16"style= 'cursor:pointer; '></td>
+          <td id="tile17"style= 'cursor:pointer; '></td>
+          <td id="tile18"style= 'cursor:pointer; '></td>
+        
+        </tr>
+        <tr>
+          <td id="tile19"style= 'cursor:pointer; '></td>
+          <td id="tile20"style= 'cursor:pointer; '></td>
+          <td id="tile21"style= 'cursor:pointer; '></td>
+          <td id="tile22"style= 'cursor:pointer; '></td>
+          <td id="tile23"style= 'cursor:pointer; '></td>
+        </tr>
+      </table>
+    </div>
+    <div class="" style="margin-left: 25%; padding: 5em;")>
+      <button class= "BingoGenerator"; onclick="myFunction()">CLICK for BINGO NUMBER</button>
+
+      
+      <section>&star;Current Number&star;: <p id="currentNumber"></p>
+      <p>Rolled Numbers: </p>
+      <p class= rolledNumbers id="rolledNumbers">Zero</p>
+      </section>
+
+
+      <section>
+     
+      <button onclick="save()">SAVE GAME</button>
+   
+      <p><br>or</p>
+     
+      <p><br>Upload save point: <input id="file" type="file" /></p>
+
+      </section>
+      
+      
+    
+  </div>
+
+
+  <!-- SCRIPTS HERE-->
+  <script src="scripts/game.js"></script>
+
+</body>
+</html>

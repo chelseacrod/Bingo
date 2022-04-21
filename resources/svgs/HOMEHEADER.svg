@@ -1,0 +1,31 @@
+<svg width="816" height="334" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="818" height="336" id="canvas_background" fill="none"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path filter="url(#svg_5_blur)" stroke="#030b14" id="svg_5" d="m1.307446,114.576654l0,0c74.559926,0 135.002719,-17.685104 135.002719,-39.500792l539.994686,0l0,0c0,21.81568 60.442794,39.500792 135.002665,39.500792l0,157.998438l0,0c-74.559899,0 -135.002665,17.685088 -135.002665,39.500776l-539.994686,0c0,-21.815696 -60.442794,-39.500776 -135.002719,-39.500776l0,-157.998438z" stroke-width="21.5" fill="#fcfdff"/>
+  <text fill="#000000" stroke-width="0" x="49.759814" y="91.07296" id="svg_2" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="rotate(-0.1654602587223053 153.29388427734492,199.95619201659702) matrix(8.32689666748047,0,0,8.626889824112142,-355.3624054394955,-513.9863398779833) " stroke="#0f0f00" font-weight="bold">W</text>
+  <text fill="#000000" stroke-width="0" stroke-opacity="null" x="273.5" y="174.453125" id="svg_3" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(4.483435330298789,0,0,3.330532312393188,-979.6405774897519,-342.0868495963514) " stroke="#000" font-weight="bold">E</text>
+  <text fill="#00007f" stroke-width="0" stroke-opacity="null" x="305.5" y="146.453125" id="svg_4" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.5310733318328857,0,0,3.9173789024353027,-765.6496828794479,-363.4871776252985) " stroke="#000"/>
+  <text fill="#00007f" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="329.5" y="191.453125" id="svg_6" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.886138444979224,0,0,2.9185519218444824,-974.7611214020282,-325.1046186313033) " stroke="#000"/>
+  <text fill="#00007f" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="313.5" y="190.453125" id="svg_7" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.634382486343384,0,0,2.8193979263305664,-817.9757620096207,-305.8862763643265) " stroke="#000"/>
+  <text fill="#000000" stroke-width="0" stroke-opacity="null" x="318.959459" y="195.020422" id="svg_8" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(5.086747475963191,0,0,6.2020094937623735,-1289.2527529290849,-952.1372941343284) " stroke="#000" font-weight="bold">L</text>
+  <text fill="#bfbf00" stroke-width="0" stroke-opacity="null" x="379.5" y="159.453125" id="svg_9" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.5827279090881348,0,0,3.141662120819092,-972.3970577716827,-293.3073201403022) " stroke="#000"/>
+  <text fill="#bfbf00" stroke-width="0" stroke-opacity="null" fill-opacity="null" x="410.5" y="190.453125" id="svg_10" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(4.14385986328125,0,0,2.8184955409018926,-1332.554476737976,-328.7093677821081) " stroke="#000"/>
+  <text fill="#000000" stroke-width="0" stroke-opacity="null" x="418.934004" y="199.405494" id="svg_11" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(4.663979205524754,0,0,4.090302031877066,-1532.6730520475787,-565.8920494586947) " stroke="#000" font-weight="bold">C</text>
+  <text fill="#000000" stroke-width="0" x="492.600245" y="200.74319" id="svg_12" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(2.9628732204437256,0,0,2.2684030532836914,-945.1234556436539,-220.06792974472046) " stroke="#000000" font-weight="bold">O</text>
+  <text fill="#000000" stroke-width="0" stroke-opacity="null" x="551.253678" y="192.346237" id="svg_13" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.7934406564760823,0,0,2.8255033493041988,-1501.3074249155795,-307.4043613523245) " stroke="#000" font-weight="bold">M</text>
+  <text fill="#000000" stroke-width="0" stroke-opacity="null" x="654.764215" y="225.091762" id="svg_14" font-size="24" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(3.560265197972858,0,0,3.469112116125119,-1650.1362213673262,-536.711919917949) " stroke="#000" font-weight="bold">E</text>
+ </g>
+</svg>
